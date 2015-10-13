@@ -1,0 +1,138 @@
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+	background-color:rgb(230, 230, 230);
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+div {
+	display: block;
+}
+
+h1, h2, h3{
+	font-family: helvetica;
+}
+
+.h2-in {
+	margin: 2em 0em .5em 1.25em;
+}
+
+.h3-in {
+	margin: 2.5em 0em .5em 1.60em;
+}
+
+p {
+	font-family: helvetica;
+	font-size: 16px;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+
+
+li {
+	font-family: helvetica;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.home-logo {
+	width: 20%;
+
+}
+
+.art-h1 {
+	padding: 0% 10%;
+}
+
+.mike {
+	max-height: 150px;
+	margin-top: 50px;
+	position: relative;
+}
+
+.mike-s {
+	height: 10px;
+	width: 10px;
+	margin: 5px;
+	padding: 5px;
+	position: absolute;
+}
+
+.s-media {
+	position: relative;
+	display: inline;
+}
+
+ul {
+	margin: 3em 29%;
+	padding-left: 2em;
+}
+
+.t-center {
+	text-align: center;
+}
+
+.masthead {
+	position: relative;
+}
+
+.s-mast-img {
+	top: 0px;
+	position: absolute;
+	height: 30em;
+	width: 100%;
+	background: url(http://placehold.it/1920x1080/E6E6E6/CCCCCC) no-repeat center;
+
+}
+
+.viewbox {
+	position: relative;
+}
+
+.more {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 6rem;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    color: rgb(204, 204, 204);
+}
+
+.flex {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.margin {
+	margin: .5em 0em;
+}
+
+.margin-b6 {
+	margin-top: .5em;
+	margin-bottom: 0em;
+}
+
+.colour-b {
+	background-color: rgb(51, 51, 51);
+	width: 100%;
+}
+
+
+
+
+
+
+
+
