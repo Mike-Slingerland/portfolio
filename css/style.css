@@ -50,8 +50,8 @@ li {
 }
 
 .mike {
-	max-height: 150px;
-	margin-top: 50px;
+	max-height: 400px;
+	margin-top: 100px;
 	position: relative;
 }
 
@@ -85,7 +85,7 @@ ul {
 .s-mast-img {
 	top: 0px;
 	position: absolute;
-	height: 30em;
+	height: 47em;
 	width: 100%;
 	background: url(http://placehold.it/1920x1080/E6E6E6/CCCCCC) no-repeat center;
 

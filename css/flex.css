@@ -398,7 +398,8 @@
 @media only screen and (min-width: 87em) {
 
 .l-logo {
-  max-height: 200px;
+  max-height: 600px;
+  margin-top: 100px;
 }
 
 .art-t {
