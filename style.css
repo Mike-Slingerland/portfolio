@@ -45,11 +45,6 @@ li {
 	padding-right: 5px;
 }
 
-.home-logo {
-	width: 20%;
-
-}
-
 .art-h1 {
 	padding: 0% 10%;
 }
@@ -60,12 +55,13 @@ li {
 	position: relative;
 }
 
-.mike-s {
-	height: 10px;
-	width: 10px;
-	margin: 5px;
-	padding: 5px;
+.mike-2 {
+	width: 70px;
+	margin: 0px;
+	padding: 0px;
 	position: absolute;
+	left:0;
+	top: 0;
 }
 
 .s-media {
