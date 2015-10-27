@@ -1,0 +1,24 @@
+#humanstxt.org
+
+# TEAM
+
+Designer & Developer: Michael G Slingerland <mikeslingerland@hotmail.com>
+site: http://msdesign.ca
+GitHub: https://girhub.com/Mike-Slingerland
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+
+
+---
+
+# THECHNOLOGY
+
+## Software
+
+- Sublime Text 2
+- GitHub
+- Markdown

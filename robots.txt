@@ -1,0 +1,3 @@
+Sitemap: http://msdesign.ca/sitemap.xml
+
+User-agent: *

@@ -422,22 +422,32 @@
 
 @media only screen and (min-width: 100em) {
 
-.xl-border {
-  width: 81%;
-  margin-right: 10em;
-  margin-left: 10em;
+  .xl-border {
+    width: 81%;
+    margin-right: 10em;
+    margin-left: 10em;
 
+  }
+
+  .colour-w {
+    background-color: rgb(204, 204, 204);
+    width: 100%;
+    height: 100%;
+  }
+
+  .t-xl-2 {
+    margin: 7em 25em 2em;
+  }
 }
 
-.colour-w {
-  background-color: rgb(204, 204, 204);
-  width: 100%;
-  height: 100%;
-}
+@media only screen and (min-width: 100em) {
 
-.t-xl-2 {
-  margin: 7em 25em 2em;
-}
+  .xl-border {
+    width: 75%;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+
+  }
 
 }
 
