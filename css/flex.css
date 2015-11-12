@@ -98,6 +98,10 @@
 
 @media only screen and (min-width: 25em) {
 
+.mast-img {
+  height: 25em;
+}
+
 .unit-s-hidden {
   display: none;
   visibility: hidden;
@@ -140,11 +144,10 @@
 
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 30em) {
 
-.margin-b5 {
-  margin-top: .5em;
-  margin-bottom: 0em;
+.mast-img {
+  height: 31em;
 }
 
 .t-m {
@@ -281,7 +284,7 @@
 
 .t-l {
   text-align: left;
-  margin: 7em 8em 2em;
+  margin: 4em 8em 2em;
 }
 
 .unit-l-hidden {
@@ -418,19 +421,22 @@
   margin: 7em 23em 2em;
 }
 
+.mast-img {
+  height: 47em;
+}
+
 }
 
 @media only screen and (min-width: 100em) {
 
   .xl-border {
-    width: 81%;
-    margin-right: 10em;
-    margin-left: 10em;
+    width: 75%;
+    margin-right: 12.25%;
+    margin-left: 12.25%;
 
   }
 
   .colour-w {
-    background-color: rgb(204, 204, 204);
     width: 100%;
     height: 100%;
   }
@@ -440,9 +446,9 @@
   }
 }
 
-@media only screen and (min-width: 100em) {
+@media only screen and (min-width: 113em) {
 
-  .xl-border {
+  .xl-border-2 {
     width: 75%;
     margin-right: 12.5%;
     margin-left: 12.5%;
