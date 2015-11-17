@@ -99,7 +99,7 @@
 @media only screen and (min-width: 25em) {
 
 .mast-img {
-  height: 25em;
+  height: 40em;
 }
 
 .unit-s-hidden {
@@ -147,7 +147,7 @@
 @media only screen and (min-width: 30em) {
 
 .mast-img {
-  height: 31em;
+  height: 46em;
 }
 
 .t-m {
@@ -267,6 +267,10 @@
 
 @media only screen and (min-width: 60em) {
 
+.mast-img {
+  height: 54em;
+}
+
 .art-t {
   margin-left: 10%;
   margin-right: 10%;
@@ -284,7 +288,7 @@
 
 .t-l {
   text-align: left;
-  margin: 4em 8em 2em;
+  margin: 4em 8em 12em;
 }
 
 .unit-l-hidden {
@@ -422,7 +426,11 @@
 }
 
 .mast-img {
-  height: 47em;
+  height: 57em;
+}
+
+.msd {
+  padding: 0em 40em 0em 3em;
 }
 
 }

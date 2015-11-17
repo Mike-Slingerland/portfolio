@@ -1,7 +1,7 @@
 html {
 	box-sizing: border-box;
 	font-size: 100%;
-	background-color:rgb(230, 230, 230);
+	background-color:rgb(42, 42, 42);
 }
 
 *, *::before, *::after {
@@ -22,6 +22,14 @@ h1, h2, h3{
 	font-family: helvetica;
 }
 
+h1 {
+	color: rgb(42, 42, 42,);
+}
+
+h2 {
+	color: rgb(153, 153, 153);
+}
+
 .h2-in {
 	margin-top: 2.5em;
 	margin-bottom: 1em;
@@ -36,14 +44,20 @@ h1, h2, h3{
 	margin: 2.5em 0em .5em 1.60em;
 }
 
+.p1 {
+	color: rgb(42, 42, 42,);
+}
+
+.p2 {
+	color: rgb(153, 153, 153);
+}
+
 p {
 	font-family: helvetica;
 	font-size: 16px;
 	margin-left: 2em;
 	margin-right: 2em;
 }
-
-
 
 li {
 	font-family: helvetica;
@@ -95,9 +109,15 @@ ul {
 	background-repeat: no-repeat;
 }
 
-.viewbox {
-	position: relative;
-}
+	.viewbox {
+		position: relative;
+		opacity: .35;
+		transition: opacity 450ms ease-out;
+	}
+
+	.viewbox:hover {
+		opacity: 1;
+	}
 
 .flex {
 	display: block;
@@ -105,17 +125,10 @@ ul {
 	height: 100%;
 }
 
-.colour-b {
-	background-color: rgb(51, 51, 51);
-	width: 100%;
-}
-
 .portrait {
 	margin-top: 3em;
 	margin-bottom: 1em;
 }
-
-
 
 
 
