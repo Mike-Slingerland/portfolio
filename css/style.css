@@ -24,10 +24,14 @@ h1, h2, h3{
 
 h1 {
 	color: rgb(36, 36, 36,);
+	font-size: 45px;
+	font-weight: lighter;
 }
 
 h2 {
 	color: rgb(179, 179, 179);
+	font-size: 35px;
+	font-weight: lighter;
 }
 
 .h2-in {
@@ -36,7 +40,7 @@ h2 {
 }
 
 .msd {
-	margin-bottom: 2.5em;
+	margin-bottom: 3.5em;
 	position: relative;
 }
 
@@ -54,7 +58,7 @@ h2 {
 
 p {
 	font-family: 'roboto', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	margin-left: 2em;
 	margin-right: 2em;
 }
@@ -69,8 +73,19 @@ li {
 	padding: 0% 10%;
 }
 
+.mast-img {
+	top: 0px;
+	position: absolute;
+	height: 47em;
+	width: 100%;
+	background-image: url(../assets/8bit-background.svg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 .mike {
-	max-height: 400px;
+	max-height: 300px;
 	margin-top: 100px;
 	position: relative;
 }
@@ -108,17 +123,6 @@ ul {
 	text-align: center;
 }
 
-.mast-img {
-	top: 0px;
-	position: absolute;
-	height: 47em;
-	width: 100%;
-	background-image: url(../assets/8bit-background.svg);
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
 	.viewbox {
 		opacity: .35;
 		transition: opacity 450ms ease-out;
@@ -141,7 +145,29 @@ ul {
 }
 
 .back {
-	background-color: rgb(36, 36, 36,);
+	width: auto;
+	height: auto;
+	background-color: #242424;
+}
+
+.purple {
+	position: relative;
+	display: inline-block;
+	width: 49.40%;
+	height: 5px;
+	background-color: #74409B;
+	margin: 0em;
+	padding: 0em;
+}
+
+.green {
+	position: relative;
+	display: inline-block;
+	width: 49.40%;
+	height: 5px;
+	background-color: #00CE00;
+	margin: 0em;
+	padding: 0em;
 }
 
 
