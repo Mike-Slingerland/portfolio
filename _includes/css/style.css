@@ -26,6 +26,13 @@ h1 {
 	color: rgb(36, 36, 36,);
 	font-size: 45px;
 	font-weight: lighter;
+	margin-bottom: 0em;
+	margin-top: 0em;
+}
+
+.h1-s {
+	margin-top: 0em;
+	margin-bottom: .5em;
 }
 
 h2 {
@@ -40,20 +47,23 @@ h2 {
 }
 
 .msd {
-	margin-bottom: 3.5em;
+	margin-top: 2.2em;
+	margin-bottom: 2.75em;
 	position: relative;
-}
-
-.h3-in {
-	margin: 2.5em 0em .5em 1.60em;
 }
 
 .p1 {
 	color: rgb(36, 36, 36,);
+	max-width: 18em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .p2 {
 	color: rgb(179, 179, 179);
+	max-width: 18em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 p {
@@ -76,7 +86,7 @@ li {
 .mast-img {
 	top: 0px;
 	position: absolute;
-	height: 47em;
+	height: 37.7em;
 	width: 100%;
 	background-image: url(../assets/8bit-background.svg);
 	background-position: center center;
@@ -85,7 +95,7 @@ li {
 }
 
 .mike {
-	max-height: 300px;
+	max-height: 260px;
 	margin-top: 100px;
 	position: relative;
 }
@@ -140,14 +150,8 @@ ul {
 }
 
 .portrait {
-	margin-top: 3em;
+	margin-top: 5em;
 	margin-bottom: 1em;
-}
-
-.back {
-	width: auto;
-	height: auto;
-	background-color: #242424;
 }
 
 .purple {

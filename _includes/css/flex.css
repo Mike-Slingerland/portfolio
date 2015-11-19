@@ -102,6 +102,12 @@
   height: 40em;
 }
 
+.msd {
+  margin-top: 4.5em;
+  margin-bottom: 2.75em;
+  position: relative;
+}
+
 .unit-s-hidden {
   display: none;
   visibility: hidden;
@@ -146,11 +152,18 @@
 
 @media only screen and (min-width: 30em) {
 
+.mike {
+  max-height: 340px;
+}
 
+.msd {
+  margin-top: 0em;
+  margin-bottom: 2.2em;
+  position: relative;
+}
 
 .t-m {
   margin: 3em 0em 2.5em 0em;
-
 }
 
 .unit-m-hidden {
@@ -264,10 +277,35 @@
 
 }
 
+@media only screen and (min-width: 36em) {
+
+  .p2 {
+    max-width: 26em;
+  }
+
+}
+
+
+@media only screen and (min-width: 40em) {
+
+  .msd{
+    margin-bottom: 2.25em;
+  }
+
+  .p2 {
+    max-width: 32em;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
 
 .mast-img {
-  height: 54em;
+  height: 37.4em;
+}
+
+.p1 {
+  max-width: 40em;
 }
 
 .art-t {
@@ -281,13 +319,9 @@
   margin-left: 10%;
 }
 
-.h1-l{
-  padding-left: 1em;
-}
-
 .t-l {
   text-align: left;
-  margin: 15.75em 8em 5em;
+  margin: 6em 0em 5em;
 }
 
 .unit-l-hidden {
@@ -421,15 +455,24 @@
 }
 
 .t-xl {
-  margin: 7em 23em 2em;
+  margin: 7em 20em 2em;
 }
 
 .mast-img {
-  height: 57em;
+  height: 56.4em;
 }
 
-.msd {
-  padding: 0em 40em 0em 3em;
+.h1-l{
+  padding-left: 4em;
+}
+
+.p1 {
+  margin-left: 10em;
+}
+
+.msd{
+  margin-bottom: 5em;
+  text-align: left;
 }
 
 }
