@@ -2,6 +2,11 @@ html {
 	box-sizing: border-box;
 	font-size: 100%;
 	background-color:rgb(36, 36, 36);
+	font-family: sans-serif;
+}
+
+.fonts-loaded {
+	font-family: "roboto", sans-serif;
 }
 
 *, *::before, *::after {
@@ -174,5 +179,51 @@ ul {
 	padding: 0em;
 }
 
+
+
+/* Fonts */
+
+
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../roboto-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../roboto-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
