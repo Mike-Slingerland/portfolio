@@ -1,0 +1,90 @@
+
+
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+	background-color:rgb(36, 36, 36);
+	font-family: sans-serif;
+}
+
+.fonts-loaded {
+	font-family: "roboto", sans-serif;
+}
+
+h1 {
+	font-family: 'roboto', sans-serif;
+	font-weight: lighter;
+	font-size: 38px;
+	text-align: center;
+	color: #f1f1f1;
+	margin: 0 0;
+}
+
+p {
+	font-family: 'roboto', sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+	text-align: center;
+	color: #f1f1f1;
+}
+
+.mike {
+	max-height: 260px;
+	margin-top: 100px;
+	margin-left: 35%;
+    margin-right: 34%;
+	position: relative;
+}
+
+
+
+/* fonts */
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../roboto-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../roboto-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../roboto-thin-webfont.woff') format('woff');
+    font-weight: thin;
+    font-style: normal;
+
+}
