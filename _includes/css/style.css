@@ -154,8 +154,7 @@ ul {
 }
 
 .portrait {
-	margin-top: 5em;
-	margin-bottom: 1em;
+	margin: 5em auto 1em;
 	max-width: 480px;
 	display: block;
 	width: 100%;
@@ -164,8 +163,10 @@ ul {
 
 .portrait-wrapper {
 	width: 100%;
+	display: block;
 	text-align: center;
-	margin: 0 auto;
+	
+
 }
 
 
