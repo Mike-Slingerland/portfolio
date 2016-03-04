@@ -41,8 +41,9 @@
 	.st35{fill:#111820;}
 	.st36{fill:#FEDD3D;}
 	.st37{fill:#6CC04A;}
-	.st38{opacity:0.75;fill:#FFFFFF;enable-background:new    ;}
+	.st38{opacity:0.6;fill:#FFFFFF;enable-background:new    ;}
 	.st39{display:none;fill:url(#SVGID_1_);}
+	.st40{fill:#F2F2F2;}
 </style>
 <g id="Layer_2" class="st0">
 </g>
@@ -508,10 +509,11 @@
 </g>
 <g id="Background">
 	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1287.5" y1="-1022" x2="2367.5" y2="-1022" gradientTransform="matrix(4.489700e-11 1 1 -4.489700e-11 2223.5 -1287.5)">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1913.5" y1="2728" x2="2993.5" y2="2728" gradientTransform="matrix(4.489700e-11 1 -1 4.489700e-11 3929.5 -1913.5)">
 		<stop  offset="0" style="stop-color:#0082CB"/>
 		<stop  offset="1" style="stop-color:#9BE7D8"/>
 	</linearGradient>
 	<rect class="st39" width="2403" height="1080"/>
 </g>
+<rect x="1133" y="1021.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -414.6931 1158.8424)" class="st40" width="117" height="117"/>
 </svg>

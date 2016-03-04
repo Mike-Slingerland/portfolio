@@ -27,28 +27,15 @@ h1, h2, h3{
 	font-family: 'robotothin', sans-serif;
 }
 
-h1 {
-	color: rgb(51, 51, 51);
-	font-size: 45px;
-	font-weight: lighter;
-	margin-bottom: 0em;
-	margin-top: 0em;
-	letter-spacing: 8px;
-}
-
-.h1-s {
-	margin-top: 0em;
-	margin-bottom: .5em;
-}
-
 h2 {
 	color: rgb(51, 51, 51);
 	font-size: 35px;
 	font-weight: lighter;
+	letter-spacing: 10px;
 }
 
 .h2-in {
-	margin-top: 2.5em;
+	margin-top: 3.5em;
 	margin-bottom: 1em;
 }
 
@@ -65,12 +52,6 @@ h2 {
 	margin-right: auto;
 }
 
-.p2 {
-	color: rgb(179, 179, 179);
-	max-width: 18em;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 p {
 	font-family: 'roboto', sans-serif;
@@ -79,7 +60,7 @@ p {
 	margin-right: 2em;
 	color: rgb(51, 51, 51);
 	line-height: 30px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 
 }
 
@@ -96,7 +77,7 @@ li {
 .mast-img {
 	top: 0px;
 	position: absolute;
-	height: 37.7em;
+
 	width: 100%;
 	background-image: url(../assets/8bit-background.svg);
 	background-position: center center;
@@ -105,8 +86,9 @@ li {
 }
 
 .mike {
-	max-height: 260px;
-	margin-top: 100px;
+	max-height: 300px;
+	margin-top: 140px;
+	margin-bottom: 220px;
 	position: relative;
 }
 
@@ -144,12 +126,12 @@ ul {
 }
 
 	.viewbox {
-		opacity: .75;
+		opacity: 1;
 		transition: opacity 450ms ease-out;
 	}
 
 	.viewbox:hover {
-		opacity: 1;
+		opacity: .75;
 	}
 
 .flex {
